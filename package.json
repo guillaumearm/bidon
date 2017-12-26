@@ -1,0 +1,24 @@
+{
+  "name": "bidon",
+  "version": "1.0.0",
+  "description": "Fake repository for testing ci tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearm/bidon.git"
+  },
+  "keywords": [
+    "bidon",
+    "fake-repository",
+    "dummy-repository"
+  ],
+  "author": "Guillaume ARM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumearm/bidon/issues"
+  },
+  "homepage": "https://github.com/guillaumearm/bidon#readme"
+}
