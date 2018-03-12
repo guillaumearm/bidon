@@ -56,9 +56,26 @@ jobs:
       # run test
       - run: npm run test:ci
 
+
+  release:
+    docker:
+      - image: circleci/node:9
+    filters:
+      branches:
+        ignore: gh-pages
+    steps:
+      - checkout
+      - restore-cache:
+          keys:
+            - handle-io-dependencies-node9-{{ checksum "package-lock.json" }}
+
+      # run semantic-release
+      - run: npm run semantic-release
+
+
 workflows:
   version: 2
-  install_build_test:
+  install_build_test_release:
     jobs:
       - install
       - test:
@@ -67,3 +84,7 @@ workflows:
       - build:
           requires:
             - install
+      - release:
+          requires:
+            - install
+            - test
