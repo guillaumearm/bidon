@@ -25,6 +25,7 @@
     "test:ci": "npm run lint && npm run test",
     "prepublishOnly": "npm run clean && npm run build",
     "cz": "git-cz",
+    "bump": "conventional-bump",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "clean": "rimraf coverage dist lib es bin"
   },
