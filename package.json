@@ -2,8 +2,22 @@
   "name": "bidon",
   "version": "1.0.0",
   "description": "Fake repository for testing ci tools",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "src",
+    "docs",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "scripts": {
+    "build:cjs": "BABEL_ENV=commonjs babel src --out-dir lib",
+    "build:es": "BABEL_ENV=es babel src --out-dir es",
+    "build": "npm run build:cjs && npm run build:es",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
