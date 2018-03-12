@@ -31,7 +31,17 @@
     "semantic-release": "semantic-release"
   },
   "release": {
-    "branch": "next"
+    "branch": "next",
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
   },
   "repository": {
     "type": "git",
@@ -60,6 +70,7 @@
     "@babel/preset-es2015": "^7.0.0-beta.40",
     "@babel/preset-stage-0": "^7.0.0-beta.40",
     "@babel/register": "^7.0.0-beta.40",
+    "@semantic-release/changelog": "^2.0.1",
     "babel-eslint": "^8.2.2",
     "commitizen": "^2.9.6",
     "conventional-changelog-cli": "^1.3.16",
