@@ -1,3 +1,4 @@
+import { resolve } from 'path';
 import { promisify } from 'util';
 import fs from 'fs';
 
@@ -7,6 +8,8 @@ const readJsonFile = async (filePath) => {
 }
 
 module.exports = async function main() {
-  const { version } = await readJsonFile('./package.json');
+  const packageJsonPath = resolve(__dirname, '..', 'package.json');
+  console.log(packageJsonPath);
+  const { version } = await readJsonFile(packageJsonPath);
   console.warn(`v${version}`);
 };
