@@ -4,6 +4,8 @@ bidon
 [![dependencies Status](https://david-dm.org/guillaumearm/bidon/status.svg)](https://david-dm.org/guillaumearm/bidon  )
 [![devDependencies Status](https://david-dm.org/guillaumearm/bidon/dev-status.svg)](https://david-dm.org/guillaumearm/bidon?type=dev)
 [![NSP Status](https://nodesecurity.io/orgs/trapcodien/projects/e29ffd03-8631-4205-b225-39275e8a7bd3/badge)](https://nodesecurity.io/orgs/trapcodien/projects/e29ffd03-8631-4205-b225-39275e8a7bd3)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 
 :chocolate_bar:
 Fake repository for testing ci tools.
