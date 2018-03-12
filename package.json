@@ -41,6 +41,15 @@
       "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/git"
+    ],
+    "publish": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/github",
+        "assets": [
+          { "path": "lib", "label": "JS distribution" }
+        ]
+      }
     ]
   },
   "repository": {
