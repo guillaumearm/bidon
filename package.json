@@ -2,25 +2,25 @@
   "name": "bidon",
   "version": "1.0.0",
   "description": "Fake repository for testing ci tools",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "jsnext:main": "es/index.js",
+  "bin": {
+    "bidon": "./bin/index.js"
+  },
   "files": [
     "dist",
     "es",
     "lib",
     "src",
+    "bin",
     "docs",
     "README.md",
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build:cjs": "BABEL_ENV=commonjs babel src --out-dir lib",
-    "build:es": "BABEL_ENV=es babel src --out-dir es",
-    "build": "npm run build:cjs && npm run build:es",
+    "build": "babel src --out-dir bin",
     "lint": "eslint .",
-    "test": "npm run lint && echo OK || echo KO",
-    "clean": "rimraf coverage dist lib es"
+    "test": "echo OK",
+    "test:ci": "npm run clean && npm run build && npm run lint && npm run test",
+    "clean": "rimraf coverage dist lib es bin"
   },
   "repository": {
     "type": "git",
