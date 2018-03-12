@@ -1,3 +1,11 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/guillaumearm/bidon/compare/v2.0.0...v2.0.1) (2018-03-12)
+
+
+### Bug Fixes
+
+* resolve package.json absolute path ([d3c1779](https://github.com/guillaumearm/bidon/commit/d3c1779))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/guillaumearm/bidon/compare/v1.1.3...v2.0.0) (2018-03-12)
 
