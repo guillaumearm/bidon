@@ -37,6 +37,12 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ],
+    "analyzeCommits": {
+      "preset": "angular",
+      "releaseRules": [
+        {"type": "docs", "release": "patch"}
+      ]
+    },
     "prepare": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
