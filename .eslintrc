@@ -17,6 +17,8 @@
   "rules": {
     "no-var": "error",
     "no-multi-spaces": ["error"],
+
     "node/no-unsupported-features": "off",
+    "no-console": "off",
   }
 }

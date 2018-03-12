@@ -1,4 +1,5 @@
 import fs from 'fs';
 
-// eslint-disable-next-line no-console
-console.log(fs.readFile);
+module.exports = function main() {
+  console.log(fs.readFile);
+};
