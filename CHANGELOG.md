@@ -1,3 +1,16 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/guillaumearm/bidon/compare/v1.1.3...v2.0.0) (2018-03-12)
+
+
+### Features
+
+* **dummy:** replace a by b ([2b6e790](https://github.com/guillaumearm/bidon/commit/2b6e790))
+
+
+### BREAKING CHANGES
+
+* **dummy:** Remove a, replace it by b
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/guillaumearm/bidon/compare/v1.1.2...v1.1.3) (2018-03-12)
 
