@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "node",
+    "import",
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+  ],
+  "rules": {
+    "no-var": "error",
+    "no-multi-spaces": ["error"],
+    "node/no-unsupported-features": "off",
+  }
+}
