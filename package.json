@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/guillaumearm/bidon/issues"
   },
-  "homepage": "https://github.com/guillaumearm/bidon#readme"
+  "homepage": "https://github.com/guillaumearm/bidon#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/node": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-es2015": "^7.0.0-beta.40",
+    "@babel/preset-stage-0": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40"
+  }
 }
