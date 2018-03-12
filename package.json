@@ -1,6 +1,6 @@
 {
   "name": "bidon",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Fake repository for testing ci tools",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -40,7 +40,10 @@
     "analyzeCommits": {
       "preset": "angular",
       "releaseRules": [
-        {"type": "docs", "release": "patch"}
+        {
+          "type": "docs",
+          "release": "patch"
+        }
       ]
     },
     "prepare": [
@@ -53,7 +56,10 @@
       {
         "path": "@semantic-release/github",
         "assets": [
-          { "path": "lib", "label": "JS distribution" }
+          {
+            "path": "lib",
+            "label": "JS distribution"
+          }
         ]
       }
     ]
