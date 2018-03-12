@@ -35,7 +35,11 @@
     "fake-repository",
     "dummy-repository"
   ],
-  "author": "Guillaume ARM",
+  "author": {
+    "name": "Guillaume ARM",
+    "email": "trapcodien@gmail.com",
+    "url": "https://github.com/guillaumearm"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/guillaumearm/bidon/issues"
