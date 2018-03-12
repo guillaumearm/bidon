@@ -67,4 +67,3 @@ workflows:
       - build:
           requires:
             - install
-            - test
