@@ -1,3 +1,11 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/guillaumearm/bidon/compare/v2.0.2...v2.1.0) (2018-03-13)
+
+
+### Features
+
+* **dist:** add umd distribution ([4b3e2e9](https://github.com/guillaumearm/bidon/commit/4b3e2e9))
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/guillaumearm/bidon/compare/v2.0.1...v2.0.2) (2018-03-13)
 
