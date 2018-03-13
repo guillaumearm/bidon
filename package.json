@@ -19,9 +19,7 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib",
-    "build:umd": "BABEL_ENV=umd babel src --out-dir dist",
-    "build": "npm run build:cjs && npm run build:umd",
+    "build": "rollup -c",
     "lint": "eslint .",
     "test": "npm run build && ./cli.js",
     "test:ci": "npm run lint && npm run test",
@@ -115,6 +113,12 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "rimraf": "^2.6.2",
+    "rollup": "^0.56.5",
+    "rollup-plugin-babel": "^4.0.0-beta.2",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.2.0",
+    "rollup-plugin-node-resolve": "^3.2.0",
     "semantic-release": "^15.0.2"
   },
   "engines": {
