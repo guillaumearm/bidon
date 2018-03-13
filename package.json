@@ -60,17 +60,22 @@
           {
             "name": "index.common.js",
             "path": "lib/index.js",
-            "label": "commonJS distribution"
+            "label": "library (commonJS distribution)"
           },
           {
             "name": "index.umd.js",
             "path": "dist/index.js",
-            "label": "UMD distribution"
+            "label": "library (UMD distribution)"
           },
           {
             "name": "index.es.js",
             "path": "es/index.js",
-            "label": "ES distribution"
+            "label": "library (ES distribution)"
+          },
+          {
+            "name": "cli.js",
+            "path": "dist/cli.js",
+            "label": "CLI (commonJS distribution)"
           }
         ]
       }
