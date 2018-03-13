@@ -1,3 +1,11 @@
+<a name="2.1.2"></a>
+## [2.1.2](https://github.com/guillaumearm/bidon/compare/v2.1.1...v2.1.2) (2018-03-13)
+
+
+### Bug Fixes
+
+* **dist:** give names to github assets ([4ffdd52](https://github.com/guillaumearm/bidon/commit/4ffdd52))
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/guillaumearm/bidon/compare/v2.1.0...v2.1.1) (2018-03-13)
 
