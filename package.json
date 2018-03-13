@@ -67,7 +67,13 @@
             "name": "index.umd.js",
             "path": "dist",
             "label": "UMD distribution"
+          },
+          {
+            "name": "index.es.js",
+            "path": "es",
+            "label": "ES distribution"
           }
+
         ]
       }
     ]
