@@ -59,10 +59,12 @@
         "path": "@semantic-release/github",
         "assets": [
           {
+            "name": "index.common.js",
             "path": "lib",
             "label": "commonJS distribution"
           },
           {
+            "name": "index.umd.js",
             "path": "dist",
             "label": "UMD distribution"
           }
