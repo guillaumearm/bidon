@@ -4,6 +4,27 @@
   ],
   "presets": [
     "@babel/preset-stage-0",
-    "@babel/preset-es2015"
-  ]
+    [
+      "@babel/preset-es2015",
+      { "modules": "umd" }
+    ]
+  ],
+  "env": {
+    "umd": {
+      "presets": [
+        [
+          "@babel/preset-es2015",
+          { "modules": "umd" }
+        ]
+      ]
+    },
+    "cjs": {
+      "presets": [
+        [
+          "@babel/preset-es2015",
+          { "modules": "cjs" }
+        ]
+      ]
+    }
+  }
 }

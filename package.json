@@ -19,7 +19,9 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build:cjs": "BABEL_ENV=cjs babel src --out-dir lib",
+    "build:umd": "BABEL_ENV=umd babel src --out-dir dist",
+    "build": "npm run build:cjs && npm run build:umd",
     "lint": "eslint .",
     "test": "npm run build && ./cli.js",
     "test:ci": "npm run lint && npm run test",
@@ -58,7 +60,15 @@
         "assets": [
           {
             "path": "lib",
-            "label": "JS distribution"
+            "label": "commonJS distribution"
+          },
+          {
+            "path": "dist",
+            "label": "UMD distribution"
+          },
+          {
+            "path": "es",
+            "label": "ES distribution"
           }
         ]
       }
