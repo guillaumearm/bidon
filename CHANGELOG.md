@@ -1,3 +1,11 @@
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/guillaumearm/bidon/compare/v2.1.0...v2.1.1) (2018-03-13)
+
+
+### Bug Fixes
+
+* **dist:** github release ([0dca42f](https://github.com/guillaumearm/bidon/commit/0dca42f))
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/guillaumearm/bidon/compare/v2.0.2...v2.1.0) (2018-03-13)
 
