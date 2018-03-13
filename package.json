@@ -1,6 +1,6 @@
 {
   "name": "bidon",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Fake repository for testing ci tools",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -73,7 +73,6 @@
             "path": "es",
             "label": "ES distribution"
           }
-
         ]
       }
     ]

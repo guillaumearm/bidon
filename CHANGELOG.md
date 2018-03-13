@@ -1,3 +1,11 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/guillaumearm/bidon/compare/v2.1.2...v2.2.0) (2018-03-13)
+
+
+### Features
+
+* **publish:** try to publish unknown es assets ([c8d9cdd](https://github.com/guillaumearm/bidon/commit/c8d9cdd))
+
 <a name="2.1.2"></a>
 ## [2.1.2](https://github.com/guillaumearm/bidon/compare/v2.1.1...v2.1.2) (2018-03-13)
 
