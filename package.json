@@ -6,7 +6,7 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "bin": {
-    "bidon": "cli.js"
+    "bidon": "dist/cli.js"
   },
   "files": [
     "cli.js",
@@ -19,9 +19,10 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "start": "NODE_ENV=dev babel-node cli.js",
+    "build": "rollup -c && chmod +x ./dist/cli.js",
     "lint": "eslint .",
-    "test": "npm run build && ./cli.js",
+    "test": "npm run build && ./dist/cli.js",
     "test:ci": "npm run lint && npm run test",
     "prepublishOnly": "npm run clean && npm run build",
     "cz": "git-cz",
@@ -115,6 +116,7 @@
     "rimraf": "^2.6.2",
     "rollup": "^0.56.5",
     "rollup-plugin-babel": "^4.0.0-beta.2",
+    "rollup-plugin-cli": "^0.1.5",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-globals": "^1.2.0",

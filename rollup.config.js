@@ -4,15 +4,19 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import builtins from 'rollup-plugin-node-builtins';
 import globals from 'rollup-plugin-node-globals';
+import cli from 'rollup-plugin-cli';
+
+const identity = x => x;
 
 const outputs = [
-  { format: 'cjs', outputFolder: 'lib' },
-  { format: 'es', outputFolder: 'es' },
-  { format: 'umd', outputFolder: 'dist' },
+  { format: 'cjs', outputFolder: 'dist', outputFile: 'cli.js', isCli: true },
+  { format: 'cjs', outputFolder: 'lib', outputFile: 'index.js' },
+  { format: 'es', outputFolder: 'es', outputFile: 'index.js' },
+  { format: 'umd', outputFolder: 'dist', outputFile: 'index.js' },
 ];
 
-export default outputs.map(({ format, outputFolder }) => ({
-  input: `src/index.js`,
+export default outputs.map(({ format, outputFolder, outputFile, isCli }) => ({
+  input: isCli ? './cli.js' : `src/index.js`,
   output: {
     name: 'Bidon',
     globals: {
@@ -21,7 +25,7 @@ export default outputs.map(({ format, outputFolder }) => ({
       util: 'util',
     },
     format,
-    file: `${outputFolder}/index.js`,
+    file: `${outputFolder}/${outputFile}`,
   },
   external: [
     'path',
@@ -29,6 +33,7 @@ export default outputs.map(({ format, outputFolder }) => ({
     'fs',
   ],
   plugins: [
+    isCli ? cli() : identity,
     babel(),
     globals(),
     builtins(),

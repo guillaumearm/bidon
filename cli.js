@@ -1,4 +1,3 @@
-#!/usr/bin/env node
+import bidon from './src';
 
-// eslint-disable-next-line node/no-missing-require
-require('./lib')();
+bidon();
