@@ -9,8 +9,8 @@ const readJsonFile = async (filePath) => {
 
 import './empty';
 
-module.exports = async function main() {
+export default async function main() {
   const packageJsonPath = resolve(__dirname, '..', 'package.json');
   const { version } = await readJsonFile(packageJsonPath);
   console.warn(`v${version}`);
-};
+}
