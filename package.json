@@ -3,8 +3,8 @@
   "version": "2.3.0",
   "description": "Fake repository for testing ci tools",
   "main": "lib/index.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
   "bin": {
     "bidon": "cli.js"
   },
@@ -60,17 +60,17 @@
         "assets": [
           {
             "name": "index.common.js",
-            "path": "lib",
+            "path": "lib/index.js",
             "label": "commonJS distribution"
           },
           {
             "name": "index.umd.js",
-            "path": "dist",
+            "path": "dist/index.js",
             "label": "UMD distribution"
           },
           {
             "name": "index.es.js",
-            "path": "es",
+            "path": "es/index.js",
             "label": "ES distribution"
           }
         ]
