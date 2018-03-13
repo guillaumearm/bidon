@@ -1,3 +1,11 @@
+<a name="2.3.1"></a>
+## [2.3.1](https://github.com/guillaumearm/bidon/compare/v2.3.0...v2.3.1) (2018-03-13)
+
+
+### Bug Fixes
+
+* **dist:** github assets fix ([7b7d5fa](https://github.com/guillaumearm/bidon/commit/7b7d5fa))
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/guillaumearm/bidon/compare/v2.2.0...v2.3.0) (2018-03-13)
 
