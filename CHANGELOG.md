@@ -1,3 +1,13 @@
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/guillaumearm/bidon/compare/v2.4.0...v2.5.0) (2018-03-13)
+
+
+### Features
+
+* **build:** add cli commonjs bundle in github release ([3bfaed7](https://github.com/guillaumearm/bidon/commit/3bfaed7))
+* **build:** use rollup to build cli.js ([8070fff](https://github.com/guillaumearm/bidon/commit/8070fff)), closes [#28](https://github.com/guillaumearm/bidon/issues/28)
+* **build:** use rollup to make commonjs, es and umd bundles ([e06629d](https://github.com/guillaumearm/bidon/commit/e06629d)), closes [#28](https://github.com/guillaumearm/bidon/issues/28)
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/guillaumearm/bidon/compare/v2.3.1...v2.4.0) (2018-03-13)
 
