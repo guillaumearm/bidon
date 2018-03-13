@@ -1,3 +1,11 @@
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/guillaumearm/bidon/compare/v2.3.1...v2.4.0) (2018-03-13)
+
+
+### Features
+
+* **dummy:** use pipe oprator in empty.js ([5612001](https://github.com/guillaumearm/bidon/commit/5612001))
+
 <a name="2.3.1"></a>
 ## [2.3.1](https://github.com/guillaumearm/bidon/compare/v2.3.0...v2.3.1) (2018-03-13)
 
