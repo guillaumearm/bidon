@@ -65,10 +65,6 @@
           {
             "path": "dist",
             "label": "UMD distribution"
-          },
-          {
-            "path": "es",
-            "label": "ES distribution"
           }
         ]
       }
