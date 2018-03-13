@@ -1,3 +1,11 @@
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/guillaumearm/bidon/compare/v2.5.0...v2.5.1) (2018-03-13)
+
+
+### Bug Fixes
+
+* **cli:** remove rollup-plugin-node-globals ([324ad25](https://github.com/guillaumearm/bidon/commit/324ad25)), closes [#32](https://github.com/guillaumearm/bidon/issues/32)
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/guillaumearm/bidon/compare/v2.4.0...v2.5.0) (2018-03-13)
 
