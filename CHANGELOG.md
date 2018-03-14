@@ -1,3 +1,11 @@
+<a name="2.6.0"></a>
+# [2.6.0](https://github.com/guillaumearm/bidon/compare/v2.5.1...v2.6.0) (2018-03-14)
+
+
+### Features
+
+* **dummy:** add one byte in "b" file ([913a2e3](https://github.com/guillaumearm/bidon/commit/913a2e3))
+
 <a name="2.5.1"></a>
 ## [2.5.1](https://github.com/guillaumearm/bidon/compare/v2.5.0...v2.5.1) (2018-03-13)
 
