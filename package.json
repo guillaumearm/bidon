@@ -63,11 +63,6 @@
             "label": "library (commonJS distribution)"
           },
           {
-            "name": "index.umd.js",
-            "path": "dist/index.js",
-            "label": "library (UMD distribution)"
-          },
-          {
             "name": "index.es.js",
             "path": "es/index.js",
             "label": "library (ES distribution)"
