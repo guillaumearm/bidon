@@ -1,3 +1,11 @@
+<a name="2.7.0"></a>
+# [2.7.0](https://github.com/guillaumearm/bidon/compare/v2.6.1...v2.7.0) (2018-03-14)
+
+
+### Features
+
+* **dummy:** replace "b" file by "a" ([#39](https://github.com/guillaumearm/bidon/issues/39)) ([1b5bfaa](https://github.com/guillaumearm/bidon/commit/1b5bfaa)), closes [#37](https://github.com/guillaumearm/bidon/issues/37)
+
 <a name="2.6.1"></a>
 ## [2.6.1](https://github.com/guillaumearm/bidon/compare/v2.6.0...v2.6.1) (2018-03-14)
 
