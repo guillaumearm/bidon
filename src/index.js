@@ -1,16 +1,6 @@
-import { resolve } from 'path';
-import { promisify } from 'util';
-import fs from 'fs';
-
-const readFile = promisify(fs.readFile);
-const readJsonFile = async (filePath) => {
-  return JSON.parse(await readFile(filePath, 'utf8'))
-}
-
+import { version } from '../package.json';
 import './empty';
 
-export default async function main() {
-  const packageJsonPath = resolve(__dirname, '..', 'package.json');
-  const { version } = await readJsonFile(packageJsonPath);
+export default function main() {
   console.warn(`v${version}`);
 }
