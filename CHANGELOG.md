@@ -1,3 +1,11 @@
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/guillaumearm/bidon/compare/v3.1.0...v3.2.0) (2018-03-14)
+
+
+### Features
+
+* **dummy:** improve a ([#48](https://github.com/guillaumearm/bidon/issues/48)) ([818102c](https://github.com/guillaumearm/bidon/commit/818102c)), closes [#47](https://github.com/guillaumearm/bidon/issues/47)
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/guillaumearm/bidon/compare/v3.0.1...v3.1.0) (2018-03-14)
 
