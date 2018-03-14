@@ -1,3 +1,11 @@
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/guillaumearm/bidon/compare/v3.0.1...v3.1.0) (2018-03-14)
+
+
+### Features
+
+* republish umd module ([#45](https://github.com/guillaumearm/bidon/issues/45)) ([afa20a8](https://github.com/guillaumearm/bidon/commit/afa20a8)), closes [#44](https://github.com/guillaumearm/bidon/issues/44)
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/guillaumearm/bidon/compare/v3.0.0...v3.0.1) (2018-03-14)
 
