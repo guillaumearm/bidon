@@ -1,3 +1,11 @@
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/guillaumearm/bidon/compare/v3.0.0...v3.0.1) (2018-03-14)
+
+
+### Bug Fixes
+
+* **cli:** use rollup-plugin-json to import packageJson ([#43](https://github.com/guillaumearm/bidon/issues/43)) ([c2f0d82](https://github.com/guillaumearm/bidon/commit/c2f0d82)), closes [#34](https://github.com/guillaumearm/bidon/issues/34)
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/guillaumearm/bidon/compare/v2.7.0...v3.0.0) (2018-03-14)
 
