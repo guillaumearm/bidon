@@ -1,3 +1,16 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/guillaumearm/bidon/compare/v2.7.0...v3.0.0) (2018-03-14)
+
+
+### Bug Fixes
+
+* remove umd distribution ([#42](https://github.com/guillaumearm/bidon/issues/42)) ([e2265b4](https://github.com/guillaumearm/bidon/commit/e2265b4)), closes [#40](https://github.com/guillaumearm/bidon/issues/40)
+
+
+### BREAKING CHANGES
+
+* umd bundle is not distributed anymore
+
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/guillaumearm/bidon/compare/v2.6.1...v2.7.0) (2018-03-14)
 
