@@ -12,6 +12,7 @@ const outputs = [
   { format: 'cjs', outputFolder: 'dist', outputFile: 'cli.js', isCli: true },
   { format: 'cjs', outputFolder: 'lib', outputFile: 'index.js' },
   { format: 'es', outputFolder: 'es', outputFile: 'index.js' },
+  { format: 'umd', outputFolder: 'dist', outputFile: 'index.js' },
 ];
 
 export default outputs.map(({ format, outputFolder, outputFile, isCli }) => ({
