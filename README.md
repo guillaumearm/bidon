@@ -1,4 +1,4 @@
-bidon
+bidon :chocolate_bar:
 ======================
 [![CircleCI](https://img.shields.io/circleci/project/github/guillaumearm/bidon.svg)](https://circleci.com/gh/guillaumearm/bidon)
 [![npm](https://img.shields.io/npm/v/bidon.svg)](https://www.npmjs.com/package/bidon)
