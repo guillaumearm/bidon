@@ -28,8 +28,7 @@
     "cz": "git-cz",
     "bump": "conventional-bump",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "clean": "rimraf coverage dist lib es bin",
-    "semantic-release": "semantic-release"
+    "clean": "rimraf coverage dist lib es bin"
   },
   "release": {
     "branch": "master",

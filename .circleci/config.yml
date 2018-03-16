@@ -70,7 +70,7 @@ jobs:
             - handle-io-dependencies-node9-{{ checksum "package-lock.json" }}
 
       # run semantic-release
-      - run: npm run semantic-release
+      - run: npx semantic-release
 
 
 workflows:
