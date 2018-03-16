@@ -1,3 +1,11 @@
+<a name="3.3.2"></a>
+## [3.3.2](https://github.com/guillaumearm/bidon/compare/v3.3.1...v3.3.2) (2018-03-16)
+
+
+### Bug Fixes
+
+* revert readme ([86f2743](https://github.com/guillaumearm/bidon/commit/86f2743))
+
 <a name="3.3.1"></a>
 ## [3.3.1](https://github.com/guillaumearm/bidon/compare/v3.3.0...v3.3.1) (2018-03-16)
 
