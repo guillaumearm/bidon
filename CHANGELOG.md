@@ -1,3 +1,11 @@
+<a name="3.3.0"></a>
+# [3.3.0](https://github.com/guillaumearm/bidon/compare/v3.2.1...v3.3.0) (2018-03-16)
+
+
+### Features
+
+* add chocolate bar in readme title ([c4ae9e9](https://github.com/guillaumearm/bidon/commit/c4ae9e9))
+
 <a name="3.2.1"></a>
 ## [3.2.1](https://github.com/guillaumearm/bidon/compare/v3.2.0...v3.2.1) (2018-03-14)
 
