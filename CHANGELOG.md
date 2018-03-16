@@ -1,3 +1,11 @@
+<a name="3.3.1"></a>
+## [3.3.1](https://github.com/guillaumearm/bidon/compare/v3.3.0...v3.3.1) (2018-03-16)
+
+
+### Bug Fixes
+
+* try handle-io/README.md ([3512a27](https://github.com/guillaumearm/bidon/commit/3512a27))
+
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/guillaumearm/bidon/compare/v3.2.1...v3.3.0) (2018-03-16)
 
