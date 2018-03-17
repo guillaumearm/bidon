@@ -1,3 +1,11 @@
+<a name="3.4.1"></a>
+## [3.4.1](https://github.com/guillaumearm/bidon/compare/v3.4.0...v3.4.1) (2018-03-17)
+
+
+### Bug Fixes
+
+* **jb:** remove jb ([25ee7da](https://github.com/guillaumearm/bidon/commit/25ee7da))
+
 <a name="3.4.0"></a>
 # [3.4.0](https://github.com/guillaumearm/bidon/compare/v3.3.2...v3.4.0) (2018-03-17)
 
