@@ -12,3 +12,4 @@ bidon
 Fake repository for testing ci tools.
 :chocolate_bar: :chocolate_bar: :chocolate_bar:
 
+Hello JB
