@@ -1,3 +1,11 @@
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/guillaumearm/bidon/compare/v3.3.2...v3.4.0) (2018-03-17)
+
+
+### Features
+
+* **jb:** add hello jb ([#51](https://github.com/guillaumearm/bidon/issues/51)) ([32f028f](https://github.com/guillaumearm/bidon/commit/32f028f)), closes [#50](https://github.com/guillaumearm/bidon/issues/50)
+
 <a name="3.3.2"></a>
 ## [3.3.2](https://github.com/guillaumearm/bidon/compare/v3.3.1...v3.3.2) (2018-03-16)
 
